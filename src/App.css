@@ -1,0 +1,61 @@
+html {
+  scrollbar-width: thin;
+  overflow-x: hidden;
+}
+
+/* Header component start */
+
+
+.bottom-border::before {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 5px;
+  border-radius: 10px;
+  background-color: #ff4800;
+  transition: width 200ms linear;
+}
+.bottom-border:hover::before {
+  width: 100%;
+}
+
+/* Header component end */
+
+
+
+/* style for Hero component start */
+.hand-rotate {
+  animation: rotation 1000ms ease-in-out infinite;
+  transform-origin: bottom right;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg)
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.animate {
+  animation: bounce-img 2500ms ease-in-out infinite;
+}
+
+@keyframes bounce-img {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -30px;
+  }
+  100% {
+    top: 0;
+  }
+}
+/* style for Hero component end */
