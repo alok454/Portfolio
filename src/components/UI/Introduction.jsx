@@ -19,7 +19,7 @@ const Introduction = () => {
           <p className="">I am fluent in in <span className="text-[#ff4800]">HTML, CSS, Javascript and Tailwind.</span></p>
           <p className="">My field of Interest's are building new <span className="text-[#ff4800]">Web Technologies and Products.</span></p>
           <p className="">My ability to apply logic and creativity to <span className="text-[#ff4800]">Web Development.</span></p>
-          <p className="">Currently, I'm expanding my skill set in <span className="text-[#ff4800]">React learning and developing</span> with it.</p>
+          <p className="">Currently, I'm expanding my skill set in <span className="text-[#ff4800]">React & Redux</span></p>
         </div>
       </div>
       <div className="w-full md:w-2/5 flex items-center justify-center">

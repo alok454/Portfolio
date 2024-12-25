@@ -9,7 +9,7 @@ import {
   github_logo,
   js_logo,
   npm_logo,
-  python_logo,
+  redux_logo,
   react_logo,
   tailwind_logo,
   vite_logo,
@@ -38,8 +38,8 @@ const logos = [
     title: "React JS",
   },
   {
-    url: python_logo,
-    title: "Python",
+    url: redux_logo,
+    title: "Redux",
   },
   {
     url: vite_logo,

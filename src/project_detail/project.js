@@ -1,4 +1,4 @@
-import todo from './photos/todo_react.jpg';
+import todo from './photos/todo_redux.png';
 import rps from './photos/rock_paper_scissors.jpg';
 import dice_game from './photos/dice_game.jpg';
 import ttt from './photos/tic_tac_toe.jpg';
@@ -7,10 +7,10 @@ import counter from './photos/counter.jpg';
 export const projects = [
   {
     id: 1,
-    title: 'Todo App',
-    tools: ['React', 'Tailwind CSS', 'React Icons'],
-    project_url: 'https://github.com/alok454/Todo_React.git',
-    demo: 'https://todo-1212.netlify.app',
+    title: 'Todo App using Redux Toolkit',
+    tools: ['React', 'Redux', 'Tailwind CSS', 'React Icons'],
+    project_url: 'https://github.com/alok454/Todo-with-Redux',
+    demo: 'https://todo-redux-opal-pi.vercel.app/',
     image: todo,
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum excepturi vero placeat illum aspernatur eaque temporibus ut ullam, quisquam, repellendus omnis soluta. Omnis consequuntur reprehenderit quis optio libero modi ratione!"
   },
