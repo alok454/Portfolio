@@ -16,10 +16,10 @@ const Introduction = () => {
         </div>
 
         <div className="flex flex-col text-xl sm:text-2xl gap-3 lg:pl-10">
-          <p className="">I am fluent in in <span className="text-[#ff4800]">HTML, CSS, Javascript and Tailwind.</span></p>
-          <p className="">My field of Interest's are building new <span className="text-[#ff4800]">Web Technologies and Products.</span></p>
-          <p className="">My ability to apply logic and creativity to <span className="text-[#ff4800]">Web Development.</span></p>
-          <p className="">Currently, I'm expanding my skill set in <span className="text-[#ff4800]">React & Redux</span></p>
+          <p className="">My key skills are <span className="text-[#ff4800]">React JS, Redux Toolkit, JavaScript, Tailwind CSS, HTML & CSS</span>.</p>
+          <p className="">My field of Interest's are building new <span className="text-[#ff4800]">Web Technologies and Products</span>.</p>
+          <p className="">My ability to apply logic and creativity to <span className="text-[#ff4800]">Web Development</span>.</p>
+          <p className="">Recently, I made an <span className="text-[#ff4800]">E Commerce</span> website that shows my skills in <span className="text-[#ff4800]">Frontend Development</span>.</p>
         </div>
       </div>
       <div className="w-full md:w-2/5 flex items-center justify-center">
